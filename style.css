@@ -1,6 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: color #f2f7f8;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.logo img {
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
 button {
-  background-color: rgb(10, 1, 1);
+  background-color: rgb(24, 25, 41);
+  padding: 14px;
   color: white;
-  padding: 10px;
-  border-radius: 10px;
+  border-radius: 7px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 16px;
+}
+.hero-image img {
+  max-width: 550px;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+p {
+  max-width: 400px;
 }
